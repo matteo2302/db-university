@@ -20,3 +20,4 @@ SELECT count(*) FROM `exams` WHERE `date` = '2020-06-20' AND `hour` > '14:00:00'
 SELECT COUNT(*) FROM `degrees` WHERE `level` = 'magistrale';
 
 -- 7. Da quanti dipartimenti è composta l'università? (12)
+SELECT COUNT(*) FROM `departments`;
